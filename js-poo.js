@@ -2,8 +2,8 @@
 "use strict"
 /* FIRST way  */
 const Personne1 = function(nom, prenom){
-    this.nom = nom || "Thibaut",
-    this.prenom = prenom || "Visticot"
+    this.nom = nom || "Zzzzz",
+    this.prenom = prenom || "Vvvvv"
 };
 
 Personne1.prototype.getFullName = function(){
@@ -19,8 +19,8 @@ console.log(pers1.getFullName());
 /* SECOND way  */
 class Personne2 {
   constructor(nom,prenom) {
-    this.nom = nom || "Thibaut",
-    this.prenom = prenom || "Visticot"
+    this.nom = nom || "Aaaaa",
+    this.prenom = prenom || "Eeeee"
   }
 
   get getFullName() {
