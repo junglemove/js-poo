@@ -11,8 +11,8 @@ Personne1.prototype.getFullName = function(){
 }
 
 var pers1 = new Personne1();
-/*pers1.nom = "Thibaut";
-pers1.prenom = "Visticot";*/
+/*pers1.nom = "Ffffff";
+pers1.prenom = "Ffffff";*/
 
 console.log(pers1.getFullName());
 
